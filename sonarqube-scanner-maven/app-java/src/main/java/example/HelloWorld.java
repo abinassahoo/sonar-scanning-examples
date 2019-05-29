@@ -1,6 +1,9 @@
 package example;
 
 public class HelloWorld {
+  
+  int age;
+  String uname;
 
   public void coveredByUnitTest() {
     System.out.println("coveredByUnitTest1");
@@ -15,6 +18,10 @@ public class HelloWorld {
 
   public void notCovered() {
     System.out.println("notCovered");
+      for (i=0; i<numrows; i++)
+  for (j=0; j<numcols; j++);
+    pixels++;
   }
+
 
 }
